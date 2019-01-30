@@ -5,7 +5,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background:  url(../images/BG.webp) no-repeat top center; 
+   background:  url(../images/BG.webp), url(../images/BG.jpg) no-repeat top center; 
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -480,7 +480,7 @@ ul#nav li.current a { color: #F06000; }
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
 
-   background: url(../images/overlay-bg.webp) repeat;
+   background: url(../images/overlay-bg.webp), url(../images/overlay-bg.png) repeat;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
